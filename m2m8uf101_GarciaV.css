@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(220,236,96);
+}
+div{
+  overflow: visible;
+}
+.cap{
+  width: 500px;
+  height: 800px;
+  background-color: rgb(228,173,91);
+  margin: 0 auto;
+  border-radius: 270px 270px 300px 300px;
+}
+.pel{
+  height: 200px;
+  background-color: black;
+  border-radius: 100% 100% 5px 5px;
+}
+.ulls{
+  height: 100px;
+  background-color: ;
+
+}
+.ceies{
+  height: 20px;
+  background-color: ;
+}
+.ceia{
+  width: 150px;
+  height: 20px;
+  background-color: black;
+  margin: 20px 50px 0 50px;
+  border-radius: 75%;
+}
+.esquerra{
+  float: left;
+}
+.dreta{
+  float: right;
+}
+.parpella1{
+  width: 90px;
+  height: 15px;
+  background-color: );
+  margin: 0 80px;
+  margin-top: 5px;
+  border-radius: 300px 300px 0 0;
+}
+.pestanya{
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  margin: 0 100px;
+  border-radius: 300px 300px 0 0;
+}
+.iris1{
+  width: 90px;
+  height: 70px;
+  background-color: white;
+  margin: 0 80px;
+  border-radius: 100%;
+  box-shadow: 0px 8px 0px rgb(226,156,53),0px -8px 0px rgb(226,156,53);
+}
+.pupila{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(23,13,5);
+  margin: 20px 30px;
+  border-radius: 100%;
+
+}
+
+}
+.parpella2{
+  width: 90px;
+  height: 10px;
+  background-color: ;
+  margin: 0 80px;
+  border-radius: 0 0 10px 10px;
+}
+.nariz{
+  width: 75px;
+  height: 100px;
+  background-color: rgb(226,156,53);
+  border-radius: 100px 100px 100px 100px;
+  margin: 110px 42% 20px 42%;
+}
+.boca{
+  width: 170px;
+  height: 50px;
+  background-color: rgba(198,41,31,.81);
+  border-radius: 0px 0px 100px 100px;
+  margin: 100px 30% 20px 34%;
+  animation-name: boca;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 500;
+  animation-direction: alternate;
+}
+@keyframes boca{
+  0%{
+  top: 0;
+  left: 0px;
+  }
+  50%{
+  top: 0;
+  left: 0px;
+  border-radius: 0px 0px 100px 100px;
+  }
+  75%{
+  top: 0;
+  left: 0px;
+  border-radius: 0px 0px 100px 100px;
+  }
+  100%{
+  top: 400px;
+  left: 0px;
+  transform:scale(0);
+  }
+}
