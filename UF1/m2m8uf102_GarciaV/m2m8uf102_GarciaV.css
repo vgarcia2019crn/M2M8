@@ -1,0 +1,407 @@
+body{
+  width: 600px;
+  height: 360px;
+  background-color: rgb(41,86,154);
+  animation-name: body;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.luna{
+       position:absolute;
+       top:15px;
+       right:20px;
+       width:150px;
+       height:150px;
+       border-radius:50%;
+       background-color:#CCC;
+       box-shadow:0px 0px 100px #FFFF8C;
+       z-index:5;
+       animation-name: luna;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+   }
+.pico1{
+  position: absolute;
+  left: -50px;
+  top: 150px;
+  border-right: 150px solid transparent;
+  border-top: 80px solid transparent;
+  border-left: 150px solid transparent;
+  border-bottom: 160px solid #53d828;
+  animation-name: pico1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.pico2{
+  position: absolute;
+  left: 150px;
+  top:145px;
+  border-right: 170px solid transparent;
+  border-top: 80px solid transparent;
+  border-left: 155px solid transparent;
+  border-bottom: 165px solid #65ff33;
+  animation-name: pico2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.pico3{
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  border-right: 150px solid transparent;
+  border-top: 80px solid transparent;
+  border-left: 150px solid transparent;
+  border-bottom: 160px solid #51b830;
+  animation-name: pico3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.pico4{
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  border-right: 150px solid transparent;
+  border-top: 80px solid transparent;
+  border-left: 150px solid transparent;
+  border-bottom: 160px solid #53d828;
+  animation-name: pico4;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.petalo1{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 50px;
+     left: 25px;
+     transform: rotate(45deg);
+}
+.petalo2{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 35px;
+     left: 35px;
+     transform: rotate(90deg);
+}
+.petalo3{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 30px;
+     left: 50px;
+     transform: rotate(135deg);
+}
+.petalo4{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 35px;
+     left: 68px;
+     transform: rotate(170deg);
+}
+.petalo5{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 50px;
+     left: 75px;
+     transform: rotate(215deg);
+}
+.petalo6{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 62px;
+     left: 65px;
+     transform: rotate(90deg);
+}
+.petalo7{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 65px;
+     left: 50px;
+     transform: rotate(135deg);
+}
+.petalo8{
+     width: 50px;
+     height: 50px;
+     border-radius:100px 0 100px 0;
+     background: #5cb85c;
+     position: absolute;
+     top: 65px;
+     left: 33px;
+     transform: rotate(170deg);
+}
+.centro{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
+.flor{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 210px;
+  left: 70px;
+  animation-name: flor;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.flor2{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 210px;
+  left: 550px;
+  animation-name: flor;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+#hormiga{
+  background: rgba(109,0,25,1);  width: 30px;
+  height: 20px;
+  border-radius: 50px 100px 0 50px;
+  position: absolute;
+  top: 366px;
+  left: 40px;
+}
+#hormiga::before{
+  content: "";
+  background-color: black;
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  top: 3px;
+  left: -20px;
+}
+#pata1{
+  background-color: black;
+  width: 2px;
+  height: 7px;
+  position: absolute;
+  top: 379px;
+  left: 24px;
+  transform: rotate(15deg);
+}
+#pata2{
+  background-color: black;
+  width: 2px;
+  height: 7px;
+  position: absolute;
+  top: 379px;
+  left: 30px;
+  transform: rotate(-30deg);
+}
+.cloud1{
+  background-color: #F3F3F3;
+  width:55px;
+  height: 45px;
+  border-radius: 65%;
+  position: absolute;
+  top: 252px;
+  left: 40px;
+  animation-name: cloud1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.cloud1::before{
+  content: "";
+  background-color: #F3F3F3;
+  width:39px;
+  height: 39px;
+  border-radius: 65%;
+  position: absolute;
+  top: 4px;
+  left: -10px;
+}
+.cloud1::after{
+  content: "";
+  background-color: #F3F3F3;
+  width:39px;
+  height: 39px;
+  border-radius: 65%;
+  position: absolute;
+  top: 4px;
+  left: 26px;
+}
+.cloud2{
+  background-color: #F3F3F3;
+  width:55px;
+  height: 45px;
+  border-radius: 65%;
+  position: absolute;
+  top: 318px;
+  left: 40px;
+  animation-name: cloud2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.cloud2::before{
+  content: "";
+  background-color: #F3F3F3;
+  width:39px;
+  height: 39px;
+  border-radius: 65%;
+  position: absolute;
+  top: 4px;
+  left: -10px;
+}
+.cloud2::after{
+  content: "";
+  background-color: #F3F3F3;
+  width:39px;
+  height: 39px;
+  border-radius: 65%;
+  position: absolute;
+  top: 4px;
+  left: 26px;
+}
+.bicho{
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  animation-name: bicho;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.palo{
+  width: 10px;
+  height: 80px;
+  background-color: brown;
+  position: absolute;
+  top: 310px;
+  left: 140px;
+}
+.palo2{
+  width: 10px;
+  height: 80px;
+  background-color: brown;
+  position: absolute;
+  top: 310px;
+  left: 620px;
+}
+@keyframes flor{
+  from{
+
+}
+  to{
+  transform-origin: center;
+  transform: rotate(360deg);
+}
+}
+@keyframes luna{
+  0%{
+  top: 20px;
+  left: 20px;
+  opacity: 0%
+}
+  100%{
+    top: 20px;
+    left: 640px;
+    opacity: 100%;
+}
+}
+@keyframes body{
+  from{
+  background-color:#ffe000 ;
+}
+  to{
+  background-color:#002ba4 ;
+}
+}
+@keyframes pico3{
+  from{
+  border-bottom: 160px solid #53d828 ;
+}
+  to{
+  border-bottom: 160px solid #c18c0d ;
+}
+}
+@keyframes pico4{
+  from{
+
+}
+  to{
+  border-bottom: 160px solid #d1970e ;
+}
+}
+@keyframes pico1{
+  from{
+
+}
+  to{
+  border-bottom: 160px solid #dd9f0d ;
+}
+}
+@keyframes pico2{
+  from{
+
+}
+  to{
+  border-bottom: 165px solid #f0ac0a ;
+}
+}
+@keyframes cloud1{
+  0%{
+    opacity: 100%;
+    background-color: white;
+  }
+  55%{
+    left: 740px;
+    opacity: 0%;
+  }
+  100%{
+  }
+}
+@keyframes cloud2{
+  0%{
+    opacity: 100%;
+    left: 740px;
+    background-color: white;
+  }
+  50%{
+    left: 280px;
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+    left: 740px;
+    background-color: white;
+  }
+}
+@keyframes bicho{
+  from{
+    left: 40px;
+  }
+  to{
+    left: 650px;
+    opacity: 0%;
+  }
+}

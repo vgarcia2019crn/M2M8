@@ -1,0 +1,220 @@
+body{
+  background-color: #DDD;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  clear: both;
+  font-size: 24px;
+  margin-left: 10px;
+  height: 50px;
+}
+h3{
+  font-size: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-style: oblique;
+  font-weight: lighter;
+  height: 100px;
+}
+#cap{
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+#cupula{
+  width: 200px;
+  height: auto;
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 0;
+  float: left;
+}
+#cap1{
+display: inline-block;
+margin-left: 75px;
+margin-top: 65px;
+word-spacing: 55px;
+}
+#precio{
+ text-align: right;
+ margin-right: 10px;
+ padding-top: 10px;
+ margin-top: 5px;
+
+}
+#linea{
+  text-align: center;
+  margin-top: -2px;
+  word-spacing: 30px;
+  font-style: oblique;
+  font-weight: lighter;
+}
+#fotos{
+  width: 100%;
+  height: auto;
+}
+#fotos1{
+  height: auto;
+  width: 100%;
+}
+#autor{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+  height: 5%;
+  border-radius: 35px;
+  float: left;
+}
+#nombre{
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+#uno{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  margin-left: 350px;
+  border: outset 3px;
+
+}
+#dos{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#tres{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#cuatro{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+}
+#cinco{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  margin-left: 350px;
+  border: outset 3px;
+
+}
+#seis{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#siete{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#ocho{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+}
+#nueve{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  margin-left: 350px;
+  border: outset 3px;
+
+}
+#diez{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#once{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#doce{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+}
+#trece{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  margin-left: 350px;
+  border: outset 3px;
+
+}
+#catorze{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#quince{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+
+}
+#dieziseis{
+  background-color: white;
+  height: auto;
+  width: 13%;
+  float: left;
+  margin: 5px;
+  border: outset 3px;
+}

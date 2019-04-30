@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Victor">
+  <title>Transform</title>
+    <style>
+div{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: rgb(252,164,45);
+  transition: all 1s ease-in 1s; /* Propierty-Duration-Time fusion-Delay */
+
+}
+div:hover{
+  background-color: rgb(42,69,247);
+}
+.rotate:hover{
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+}
+.rotatey:hover{
+  -webkit-transform: rotateY(70deg);
+  transform: rotateY(70deg);
+
+}
+.translate:hover{
+  -webkit-transform: translate(100px,0);
+  transform: translate(100px,0);
+
+}
+.skew:hover{
+  -webkit-transform: skew(0,15deg);
+  transform: skew(0,30deg);
+
+}
+.scale:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+
+}
+    </style>
+</head>
+<body>
+
+  <div class="rotate">
+    <h3>Rotate</h3>
+  </div>
+  <div class="rotatey">
+    <h3>Rotate Y</h3>
+  </div>
+  <div  class="translate">
+    <h3>Translate</h3>
+  </div>
+  <div class="skew">
+    <h3>Skew</h3>
+  </div>
+  <div class="scale">
+    <h3>Scale</h3>
+  </div>
+  <div>
+    <h3></h3>
+  </div>
+
+</body>
+</html>

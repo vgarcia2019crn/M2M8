@@ -1,0 +1,47 @@
+body{
+  background-color: #093647;
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  background-color: #A8FFAF;
+}
+#header{
+  height: 100px;
+}
+#Principal{
+  background-color: #F4FFA8;
+  width: 70%;
+  float: left;
+}
+#Lateral{
+  background-color: #FFF9C8;
+  width: 30%;
+  float: right;
+}
+#peu{
+  height: 100px;
+  clear: both;
+}
+.num{
+  text-align: center;
+  color: #093647;
+  width: 31.2%;
+  height: 200px;
+  float: left;
+  margin: 0.5%;
+  border: solid 1px;
+}
+.lat{
+  text-align: center;
+  background-color: #F4FFA8;
+  color: #093647;
+  height: 150px;
+  margin: 1%;
+}
+h2{
+  font-size: 19px;
+}
+h1{
+  font-size: 26px;
+}

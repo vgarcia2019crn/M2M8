@@ -1,0 +1,52 @@
+p{
+  color: red;
+  border: solid 2px black;
+}
+body{
+  background-color: #487;
+}
+h1,h2{
+  padding: 550px;
+}
+.ex1{
+  display: none;
+}
+.ex2{
+  display: inline;
+  height: 300px;
+
+}
+.ex3{
+  display: block;
+}
+.ex4{
+  display: inline-block;
+}
+#foto{
+  width: 28%;
+  float: left;
+  padding: 5px;
+}
+.div{
+  padding: 550px;
+}
+li{
+  display: inline;
+}
+ul{
+  text-align: right;
+}
+#boto{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50px;
+  position: fixed;
+  border: solid 0px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  bottom: 50px;
+  right: 50px;
+}

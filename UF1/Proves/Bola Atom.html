@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animation</title>
+
+<style>
+  #bola{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(215,61,47);
+    border: solid 5px rgb(140,30,15);
+    border-radius: 75px;
+    position: relative;
+
+    animation-name: bola;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 500;
+    animation-direction: alternate;
+  }
+  @keyframes bola{
+    0%{
+    top: 0;
+    left: 0px;
+    }
+    100%{
+    top: 500px;
+    left: 0px;
+    transform:scale(-1);
+    }
+  }
+  #sombra{
+    background-color: rgb(226,67,62);
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+</style>
+
+</head>
+<body>
+<div id="bola">
+  <div id="sombra"></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+  background-color: #63C3B2;
+  font-size: 15px;
+}
+form{
+  background-color: #C8FFF6;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  font-family: Impact;
+  color: #095B4E;
+
+}
+div{
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+label{
+  display: block;
+}
+input{
+  background-color: #E1F3FF;
+  display: block;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+.alinea{
+  display: inline-block;
+  width: 5%;
+  margin: 0;
+  padding: 0;
+}
+#envia{
+  background-color: #FDFF7B;
+  box-shadow: 3px 3px 10px #333;
+}
